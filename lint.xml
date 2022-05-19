@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<lint>
+    <issue id="IconDensities" severity="ignore" />
+    <issue id="IconMissingDensityFolder" severity="ignore" />
+    <issue id="InvalidPackage" severity="ignore" />
+    <issue id="NewApi">
+        <ignore path="src/com/colourmemory/HomeActivity.java" />
+        <ignore path="src/com/colourmemory/game/GameBoardActivity.java" />
+    </issue>
+</lint>

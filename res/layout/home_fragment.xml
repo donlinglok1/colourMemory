@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical" >
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="10dp"
+        android:text="@string/home_welcome"
+        android:textColor="@color/white" />
+
+    <SeekBar
+        android:id="@+id/sizeselect"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:max="1"
+        android:padding="10dp"
+        android:progress="0" />
+
+    <ImageView
+        android:id="@+id/gamesize"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:contentDescription="@string/home_game_size"
+        android:src="@drawable/size2x2" />
+
+    <Button
+        android:id="@+id/btnstart"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/home_start" />
+
+</LinearLayout>

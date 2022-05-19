@@ -1,0 +1,15 @@
+<resources>
+
+    <string name="app_name">Colour Memory</string>
+    <string name="rank_rank">Rank</string>
+    <string name="rank_name">Name</string>
+    <string name="rank_point">Point</string>
+    <string name="rank_time">Time</string>
+    <string name="game_logo">logo</string>
+    <string name="game_high_scroes">High Scroes</string>
+    <string name="home_bg">background image</string>
+    <string name="home_welcome">Welcome, use seek bar below to choose the game size!</string>
+    <string name="home_game_size">game size</string>
+    <string name="home_start">Start</string>
+
+</resources>
